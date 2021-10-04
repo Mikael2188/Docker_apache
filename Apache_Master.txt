@@ -1,0 +1,5 @@
+FROM ubutu:lastest
+WORKDIR /home/apache_deploy
+run apt-get update 
+run apt-get upgrade
+run apt-get install apache2
